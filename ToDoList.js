@@ -1,4 +1,4 @@
-const TodoArr=[];
+const TodoArr=[{name:'Friends Meet', dueDate:'2024-07-19'} ];
 
 renderTodoList();
 
