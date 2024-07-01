@@ -1,4 +1,4 @@
-const TodoArr=[{name:'keerthi', dueDate:'2004-03-29 '} ,{name:'manoj',dueDate:' 2000-06-28'}];
+const TodoArr=[];
 
 renderTodoList();
 
@@ -12,7 +12,7 @@ const html=`
 <div> ${dueDate} </div>
 <button onclick="TodoArr.splice(${index},1);
 renderTodoList();
-" class="cs-del"> Delete </button>
+" class="cs-del"> Remove </button>
 `;
 
 todoHtml+=html;

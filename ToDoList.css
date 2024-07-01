@@ -1,5 +1,40 @@
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: linear-gradient(to right, #40E0D0, #811985);
+  color: white;
+  font-size: 18px;
+  }
+  .container{
+    background-color: rgb(71, 69, 69);
+    border:solid 3px rgb(223, 32, 182) ;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 20px;
+    padding-left: 0px;
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+  .title{
+  margin-left: 500px;
+  font-size: 45px;
+  margin-top: 5px;
+  color: rgb(255, 233, 32);
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  .quote{
+    font-size: 28px;
+    color: #103583;
+    font-weight: bold;
+    margin-left: 400px;
+    /*padding-left: 40px;
+    background-color:  rgb(9, 105, 81);
+    margin-right: 360px;
+    padding-top:10px ;
+       margin-left:400px ;
+    padding-bottom:10px ;
+    border-radius:20px ;
+    padding-right: 40px;*/
   }
  .todo-input-grid,.todo-grid{
    display: grid;
@@ -7,14 +42,20 @@ body{
    column-gap: 10px;
    row-gap: 10px;
    align-items: center;
+   padding-left: 40px;
   }
   .todo-input-grid{
    margin-bottom: 10px;
    align-items: stretch;
+   
+  }
+  .todo-grid{
+    margin-top:30px ;
   }
   .cs-add{
-   background-color: green;
+   background-color: rgb(245, 51, 229);
    border: none;
+   border-radius: 20px;
    color: white;
    font-size: 15px;
    cursor: pointer;
@@ -22,6 +63,7 @@ body{
   .cs-del{
    background-color: rgb(228, 43, 43);
    border: none;
+   border-radius: 20px;
    padding: 6px;
    color: white;
    font-size: 15px;
@@ -32,4 +74,8 @@ body{
   .cs-name-input,.cs-date-input{
    padding: 6px;
    font-size: 15px;
+   background-color: rgba(0, 0, 0, 0.315);
+   border: solid 1.5px rgb(223, 32, 182);
+   color: rgb(114, 110, 110);
   }
+ 
