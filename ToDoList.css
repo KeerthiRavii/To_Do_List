@@ -17,7 +17,7 @@ body{
   .title{
   margin-left: 500px;
   font-size: 45px;
-  margin-top: 5px;
+  margin-top: 10px;
   color: rgb(255, 233, 32);
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
@@ -27,14 +27,6 @@ body{
     color: #103583;
     font-weight: bold;
     margin-left: 400px;
-    /*padding-left: 40px;
-    background-color:  rgb(9, 105, 81);
-    margin-right: 360px;
-    padding-top:10px ;
-       margin-left:400px ;
-    padding-bottom:10px ;
-    border-radius:20px ;
-    padding-right: 40px;*/
   }
  .todo-input-grid,.todo-grid{
    display: grid;
